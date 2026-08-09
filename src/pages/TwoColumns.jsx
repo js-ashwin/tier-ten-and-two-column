@@ -7,9 +7,7 @@ export default function TwoColumns() {
   const [step, setStep] = useState("form");
   const [csvText, setCsvText] = useState("");
 
-  const [leftHeading, setLeftHeading] = useState(
-    "❌ Left Column CONS - ✍️ EDIT",
-  );
+  const [leftHeading, setLeftHeading] = useState("❌ CONS - ✍️ EDIT");
   const [rightHeading, setRightHeading] = useState("✅ Right Column PROS");
 
   const [inputs, setInputs] = useState(Array(10).fill(""));
