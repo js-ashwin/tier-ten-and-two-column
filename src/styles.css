@@ -349,6 +349,14 @@ body {
   display: grid;
 }
 
+.align-two-columns {
+  display: flex;
+}
+
+.two-column-grid {
+  width: 40rem;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, 1fr);
 }

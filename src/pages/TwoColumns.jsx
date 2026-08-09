@@ -127,9 +127,9 @@ export default function TwoColumns() {
 
   return (
     <div className="app-red-green bg-neutral-100 p-10 font-sans">
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid grid-cols-2 gap-10 align-two-columns">
         {/* LEFT */}
-        <div>
+        <div className="two-column-grid">
           <h2
             style={{
               fontSize: "1.5rem",
@@ -160,7 +160,7 @@ export default function TwoColumns() {
         </div>
 
         {/* RIGHT */}
-        <div>
+        <div className="two-column-grid">
           <h2
             style={{
               fontSize: "1.5rem",
